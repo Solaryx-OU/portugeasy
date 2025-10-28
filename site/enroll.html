@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Enroll Now | PortugEasy</title>
+    <meta
+      name="description"
+      content="Start your PortugEasy enrollment, book placement tests, and follow onboarding steps for Portuguese courses."
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a class="logo" href="index.html">PortugEasy</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="methodology.html">Methodology</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Start Your PortugEasy Journey</h1>
+          <p>Follow the steps below to enroll, take your placement test, and join your cohort.</p>
+        </div>
+        <div class="highlight">
+          <h2>Need Help?</h2>
+          <p>Our admissions advisors can guide you through every step of the process.</p>
+          <a class="btn" href="contact.html">Talk to Admissions</a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Enrollment Steps</h2>
+        <ol class="list">
+          <li>Complete the application form below.</li>
+          <li>Schedule your placement test at a convenient time.</li>
+          <li>Receive your level placement and course recommendation.</li>
+          <li>Attend onboarding orientation and meet your cohort.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Application Form</h2>
+        <form data-netlify="true" name="enroll" method="post">
+          <input type="hidden" name="form-name" value="enroll" />
+          <label for="full-name">Full Name</label>
+          <input id="full-name" name="full-name" type="text" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="country">Country</label>
+          <input id="country" name="country" type="text" required />
+
+          <label for="goal">Learning Goal</label>
+          <select id="goal" name="goal" required>
+            <option value="General Fluency">General Fluency</option>
+            <option value="Academic">Academic</option>
+            <option value="Professional">Professional</option>
+            <option value="Exam Prep">Exam Prep</option>
+          </select>
+
+          <label for="experience">Describe your experience</label>
+          <textarea id="experience" name="experience" rows="4" required></textarea>
+
+          <button class="btn" type="submit">Submit Application</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Placement Test Booking</h2>
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Available Slots</h3>
+            <p>Tuesday &amp; Thursday — 10:00, 14:00, 18:00 WET</p>
+          </div>
+          <div class="card">
+            <h3>Preparation</h3>
+            <p>Allow 45 minutes and ensure a quiet space with stable internet.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Onboarding Checklist</h2>
+        <ul class="list">
+          <li>Confirm cohort start date and class schedule.</li>
+          <li>Log into the student portal to set up your profile.</li>
+          <li>Review course syllabus and resource library.</li>
+          <li>Attend welcome orientation webinar.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>FAQ Snapshot</h2>
+        <div class="grid grid-2">
+          <div class="faq-item">
+            <h3>Do I need prior Portuguese experience?</h3>
+            <p>No, we offer courses for complete beginners through advanced speakers.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Can I defer my start date?</h3>
+            <p>Yes, contact admissions at least one week before your cohort begins.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div>
+          <h3>PortugEasy</h3>
+          <p class="tagline">Portuguese mastery, powered by Nova University expertise.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul class="list">
+            <li><a href="courses.html">Course Catalog</a></li>
+            <li><a href="resources.html">Student Resources</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="legal.html">Policies</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="list">
+            <li><a href="mailto:hello@portugeasy.com">hello@portugeasy.com</a></li>
+            <li><a href="tel:+351210000000">+351 210 000 000</a></li>
+            <li>Lisbon • São Paulo • Online</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© <span data-current-year></span> PortugEasy. All rights reserved.</div>
+    </footer>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

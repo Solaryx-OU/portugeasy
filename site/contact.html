@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact & Support | PortugEasy</title>
+    <meta
+      name="description"
+      content="Reach PortugEasy admissions, support, and student services. Submit inquiries or schedule a consultation."
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a class="logo" href="index.html">PortugEasy</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="methodology.html">Methodology</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h1>We’re Here to Help</h1>
+          <p>
+            Connect with admissions, student success, or technical support. We respond within one business day.
+          </p>
+        </div>
+        <div class="highlight">
+          <h2>Contact Details</h2>
+          <ul class="list">
+            <li>Email: <a href="mailto:hello@portugeasy.com">hello@portugeasy.com</a></li>
+            <li>Phone: <a href="tel:+351210000000">+351 210 000 000</a></li>
+            <li>WhatsApp: +351 910 000 000</li>
+            <li>Office Hours: Monday–Friday, 9:00–18:00 WET</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Send Us a Message</h2>
+        <form data-netlify="true" name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="topic">Inquiry Type</label>
+          <select id="topic" name="topic" required>
+            <option value="Admissions">Admissions</option>
+            <option value="Student Support">Student Support</option>
+            <option value="Technical">Technical</option>
+            <option value="Corporate Training">Corporate Training</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Support Escalation</h2>
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>Student Services</h3>
+            <p>Program advising, placement, and academic coaching.</p>
+          </div>
+          <div class="card">
+            <h3>Technical Support</h3>
+            <p>Virtual classroom, portal access, and troubleshooting.</p>
+          </div>
+          <div class="card">
+            <h3>Billing &amp; Payments</h3>
+            <p>Invoices, receipts, and refund assistance.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Connect with Us</h2>
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Social Media</h3>
+            <p>Follow @PortugEasy on Instagram, LinkedIn, and YouTube.</p>
+          </div>
+          <div class="card">
+            <h3>Visit Lisbon Hub</h3>
+            <p>Rua da Linguagem 45, 1200-110 Lisbon, Portugal (by appointment).</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div>
+          <h3>PortugEasy</h3>
+          <p class="tagline">Portuguese mastery, powered by Nova University expertise.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul class="list">
+            <li><a href="courses.html">Course Catalog</a></li>
+            <li><a href="resources.html">Student Resources</a></li>
+            <li><a href="testimonials.html">Success Stories</a></li>
+            <li><a href="legal.html">Policies</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="list">
+            <li><a href="mailto:hello@portugeasy.com">hello@portugeasy.com</a></li>
+            <li><a href="tel:+351210000000">+351 210 000 000</a></li>
+            <li>Lisbon • São Paulo • Online</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© <span data-current-year></span> PortugEasy. All rights reserved.</div>
+    </footer>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

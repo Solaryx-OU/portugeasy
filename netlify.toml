@@ -1,0 +1,9 @@
+[build]
+  publish = "site"
+  command = ""
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+[context.production.environment]
+  NODE_VERSION = "18"
